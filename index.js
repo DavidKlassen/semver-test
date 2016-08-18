@@ -1,7 +1,7 @@
 exports.foo = function () {
-    return 'foo';
+    return 'FOO';
 };
 
 exports.bar = function () {
-    return 'bar';
+    return 'BAR';
 };

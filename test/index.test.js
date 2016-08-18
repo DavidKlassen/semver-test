@@ -9,11 +9,11 @@ test('public exports', function (t) {
 });
 
 test('api.foo()', function (t) {
-    t.equal(api.foo(), 'foo');
+    t.equal(api.foo(), 'FOO');
     t.end();
 });
 
 test('api.bar()', function (t) {
-    t.equal(api.bar(), 'bar');
+    t.equal(api.bar(), 'BAR');
     t.end();
 });
