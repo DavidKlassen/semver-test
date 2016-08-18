@@ -1,0 +1,32 @@
+{
+  "name": "semver-test",
+  "description": "Semver test",
+  "version": "0.0.0-semver",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "tape test/**/*.test.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidKlassen/semver-test.git"
+  },
+  "author": "David Klassen <f0rk.tt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidKlassen/semver-test/issues"
+  },
+  "homepage": "https://github.com/DavidKlassen/semver-test#readme",
+  "devDependencies": {
+    "commitizen": "^2.8.6",
+    "cz-conventional-changelog": "^1.2.0",
+    "semantic-release": "^4.3.5",
+    "tape": "^4.6.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
